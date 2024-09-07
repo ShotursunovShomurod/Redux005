@@ -6,9 +6,6 @@ const Counter = () => {
   console.log(counter);
   return (
     <div className="container mx-auto">
-      <h2 className="text-[24px] font-[600] text-center mt-[40px]">
-        {counter}
-      </h2>
     </div>
   );
 };

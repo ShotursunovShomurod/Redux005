@@ -110,7 +110,7 @@ export default function BasicModal({ ooo }) {
                 placeholder="desc"
               />
             </div>
-            <button className="w-ful py-1 bg-blue-700 text-[#fff]">ADD</button>
+            <button className="w-ful py-1 bg-blue-700 text-[#fff]">Create Card</button>
           </form>
         </Box>
       </Modal>
