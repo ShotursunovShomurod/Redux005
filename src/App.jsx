@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import BlogCreate from "./components/blogcreate/blog-create";
 import Cart from "./components/cart/cart";
 import Carusel from "./components/carusel/carusel";
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Cart />
       <BlogCreate />
+      <Footer/>
     </>
   );
 }

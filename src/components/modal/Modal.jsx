@@ -1,7 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+// import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { useDispatch } from "react-redux";
 import { update } from "../../redux/cart";
@@ -40,6 +40,9 @@ export default function BasicModal({ ooo }) {
   };
   const { data, handleChange } = useGetValues(initialState);
 
+
+
+  
   return (
     <div>
       <Button onClick={handleOpen}>{ooo}</Button>
