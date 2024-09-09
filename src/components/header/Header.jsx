@@ -1,10 +1,10 @@
+import { RiMenu2Fill } from "react-icons/ri";
 import React, { memo, useState } from "react";
 import { CiHeart } from "react-icons/ci";
-import { IoCartOutline } from "react-icons/io5";
-import { RiMenu2Fill } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
 import BasicModal from "../modal/Modal";
 import Logo from "../../assets/Logo.png"
+import { IoCartOutline } from "react-icons/io5";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
             } transition-all duration-300 lg:relative lg:flex-row lg:w-auto lg:bg-transparent`}
           >
             <div className="flex gap-4 items-center">
-              <BasicModal ooo="Create Card" />
+           
               <CiHeart className="text-[24px] cursor-pointer hover:text-red-500 transition" />
               <NavLink
                 to={"/wishlist"}
@@ -50,6 +50,7 @@ const Header = () => {
                 Cart
               </NavLink>
             </div>
+            <BasicModal ooo="Create Card" />
           </div>
 
           {/* Menu Icon for Mobile */}
